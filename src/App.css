@@ -1,0 +1,42 @@
+.title {
+  text-align: center;
+  color: #f2ffcf;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 2rem;
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.box {
+  width: 45%;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+}
+
+#editor {
+  height: 100vh;
+  width: 100%;
+  border: 2px solid rgb(129, 125, 125);
+  background-color: #282a36;
+  color: beige;
+  resize: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: Casadia Code, monospace;
+  padding: 1rem;
+}
+
+#preview {
+  height: fit-content;
+  border: 2px solid rgb(129, 125, 125);
+  background-color: #282a36;
+  color: beige;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 1rem;
+}
